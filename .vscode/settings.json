@@ -1,5 +1,5 @@
 {
     "wake.compiler.solc.remappings": [
-        "forge-std/=lib/forge-std/src/"
+        "@uniswap/v3-core=lib/v3-core/"
     ]
 }
