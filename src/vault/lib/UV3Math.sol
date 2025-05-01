@@ -63,7 +63,8 @@ library UV3Math {
         address _pool, 
         uint32 _twapPeriod
     ) public view returns(int24 timeWeightedAverageTick) {
-        timeWeightedAverageTick = OracleLibrary.consult(_pool, _twapPeriod);
+        uint128 harmonicMeanLiquidity;
+        (timeWeightedAverageTick, harmonicMeanLiquidity) = OracleLibrary.consult(_pool, _twapPeriod);
     }
 
     function getQuoteAtTick(
