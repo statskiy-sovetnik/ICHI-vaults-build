@@ -1,0 +1,10 @@
+{
+  "name": "ICHI-vaults",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Epsilon Delta <ivangladkikh4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.1"
+  }
+}
